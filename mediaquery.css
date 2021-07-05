@@ -1,0 +1,82 @@
+!DOCTYPE HTML>
+ <head>
+ <title>Praktik Responsive Desain</title>
+ <meta content='width=device-width, initial-scale-1, maximum-scale-1' name='viewport' />
+ <link rel="stylesheet" href="style.css" href="assets/css/style.css">
+ <link rel="stylesheet" href="style.css" href="assets/css/mediaquery.css">
+ </head>
+@media screen and (max-widht: 960) {
+    .header {
+        position: inherit;
+    }
+    .wrap {
+        widht :93.75%;
+        margin:25px auto;
+    }
+    .sidebar {
+        widht:100%;
+        margin:25px 0 0;
+        float:right;
+    }
+    .sidebar .widget {
+        padding:5%;
+    }
+    nav .menu ul {
+        widht: 100% ;
+    }
+    nav .menu ul {
+        float:inherit;
+    }
+    nav .menu ul li {
+        float:inherit;
+        margin:0;
+    }
+    nav .menu ul a {
+        padding:15px;
+        font-size: 16px;
+        border-top:1px solid #1abf9f;
+        border-bottom:1px solid #f42064;
+    }
+    .blog {
+        widht:90%;
+    }
+    .conteudo {
+        float:inherit;
+        margin:0 auto 25px;
+        widht:101%;
+        border:1px solid #dedede;
+        bacground: #fff;
+    }
+    conteudo img {
+        max-widht: 110%;
+        margin:0 0 25px -5%;
+        min-widht 110%;
+    }
+    .conteudo .continue-lendo:hover {
+        margin-left:0;
+    @media screen and (max-widht: 460px) {
+    nav .menu ul a {
+        padding:15px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        display:none;
+    }
+
+    .post-info {
+        display:none;
+    }
+
+    .conteudo {
+        margin:25px auto;
+    }
+    .conteudo img {
+        margin:-5% 0 25px -5%;
+    }
+    
+
+    }
+
+ 
+
